@@ -20,16 +20,16 @@ html {
 }
 body {
   height: 100%;
-  /* font-family: "Rubik", "Arial", sans-serif;
-  font-size: 15px;
-  line-height: 18px;
-  color: #434343; */
+  font-family: "Product Sans", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
   margin: 0;
   padding: 0;
 }
 .container {
-  max-width: 1240px;
-  padding: 0 20px;
+  max-width: 1148px;
+  padding: 0 24px;
   margin-left: auto;
   margin-right: auto;
 }
