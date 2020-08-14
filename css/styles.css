@@ -393,6 +393,7 @@ img {
 }
 /* SITE FOOTER */
 .footer-section{
+  padding: 56px 100px;
   background-color: #191919;
 }
 .footer-content{
@@ -408,5 +409,9 @@ img {
   font-size: 20px;
   line-height: 130%;
   color: #FFFFFF;
-  
+}
+.copyright-text p{
+  font-size: 16px;
+  line-height: 150%;
+  color: #FFFFFF;
 }
