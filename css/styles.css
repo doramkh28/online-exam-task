@@ -218,6 +218,12 @@ img {
   border-radius: 5px;
   text-decoration: none;
 }
+.business-text a:hover{
+  background-color: rgba(0, 186, 252, 0.8);
+}
+.business-text a:active{
+  background-color: rgba(0, 186, 252, 0.6);
+}
 /* SERVICES SECTION */
 .services{
   padding: 0 100px;
