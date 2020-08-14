@@ -391,3 +391,22 @@ img {
   background-repeat: no-repeat;
   background-position: 0 center;
 }
+/* SITE FOOTER */
+.footer-section{
+  background-color: #191919;
+}
+.footer-content{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.copyright-text {
+  width: 320px;
+}
+.copyright-text h3{
+  margin: 0;
+  font-size: 20px;
+  line-height: 130%;
+  color: #FFFFFF;
+  
+}
