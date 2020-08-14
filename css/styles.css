@@ -1,0 +1,48 @@
+/* Order of writing Css properties
+SELECTOR
+1. Positioning:
+  position, z-index, top, bottom, left, right
+2. Display and Box-model
+  display, overflow, width, height, padding, border, margin
+3. Color
+  background-color, color
+4. Text
+  font-family, font-size, font-weight, line-height, text-align
+5. Other */
+html {
+  box-sizing: border-box;
+  height: 100%;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+body {
+  height: 100%;
+  /* font-family: "Rubik", "Arial", sans-serif;
+  font-size: 15px;
+  line-height: 18px;
+  color: #434343; */
+  margin: 0;
+  padding: 0;
+}
+.container {
+  max-width: 1240px;
+  padding: 0 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+img {
+  display: block;
+}
