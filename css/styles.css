@@ -75,6 +75,13 @@ img {
   background-color: #EEEEEE;
   border: none;
 }
+.services-how-work-head{
+  width: 719px;
+  padding: 38px 0 24px 0;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
 /* SITE HEADER */
 .site-header{
   position: fixed;
@@ -229,13 +236,6 @@ img {
   padding: 0 100px;
   margin-bottom: 56px;
 }
-.services-head{
-  width: 719px;
-  padding: 38px 0 24px 0;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-}
 .services-head h2{
   font-size: 24px;
   line-height: 31px;
@@ -264,7 +264,10 @@ img {
 .services-item:nth-child(3n){
   margin-right: 0;
 }
-.services-item:nth-child(4,5){
+.services-item:nth-child(4){
+  margin-bottom: 40px;
+}
+.services-item:nth-child(5){
   margin-bottom: 40px;
 }
 .services-list-link{
@@ -333,4 +336,58 @@ img {
   color: #00BAFC;
   border-bottom: 1px solid #00BAFC;
   text-decoration: none;
+}
+/* HOW WE WORK SECTION */
+.how-work{
+  margin-bottom: 56px;
+}
+.how-work-div{
+  width: 832px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 48px;
+}
+.how-work-div h3{
+  margin: 0;
+  margin-bottom: 8px;
+  font-size: 20px;
+  line-height: 130%;
+}
+.how-work-div p{
+  margin: 0;
+}
+.note-teblet{
+  height: 280px;
+  padding: 97px 0 97px 335px;
+  background-image: url('../images/note-tablet.png');
+  background-repeat: no-repeat;
+  background-position: 0 center;
+}
+.solutions{
+  height: 225px;
+  padding: 83px 335px 83px 0;
+  background-image: url('../images/solutions.png');
+  background-repeat: no-repeat;
+  background-position: 100% center;
+}
+.result{
+  height: 172px;
+  padding: 57px 335px 57px 0;
+  background-image: url('../images/result-illustration.png');
+  background-repeat: no-repeat;
+  background-position: 100% center;
+}
+.time{
+  height: 259px;
+  padding: 101px 0 101px 335px;
+  background-image: url('../images/time-illustration.png');
+  background-repeat: no-repeat;
+  background-position: 0 center;
+}
+.support{
+  height: 232px;
+  padding: 87px 0 87px 335px;
+  background-image: url('../images/support-illustration.png');
+  background-repeat: no-repeat;
+  background-position: 0 center;
 }
