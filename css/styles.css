@@ -71,6 +71,7 @@ img {
 /* SITE HEADER */
 .site-header{
   position: fixed;
+  top: 0;
   z-index: 5;
   width: 100%;
   background-color: #FFFFFF;
@@ -176,4 +177,38 @@ img {
 .call-number:active{
   color: #FFFFFF;
   background-color: rgba(0, 186, 252, 0.6);
+}
+/* BUSINESS SECTION */
+.business-section{
+  padding: 80px 100px;
+  margin-top: 56px;
+  background-color: #FFFFFF;
+}
+.business-section-content{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.youtube-video{
+  width: 458px;
+  height: 258px;
+}
+.business-text{
+  width: 465px;
+}
+.business-text h1{
+  margin: 0;
+  font-size: 30px;
+  line-height: 39px;
+}
+.business-text p{
+  margin: 16px 0;
+}
+.business-text a{
+  display: inline-block;
+  padding: 8px 16px;
+  color: #FFFFFF;
+  background-color: #00BAFC;
+  border-radius: 5px;
+  text-decoration: none;
 }
